@@ -1,0 +1,132 @@
+html, body {
+    margin: 0 5px;
+    padding: 0;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    color: #FFFFFF;   
+}
+
+.box-content {
+    background-color: #1B1924;
+    margin: 80px auto;
+    padding: 40px;
+    border-radius: 10px;
+    width: 90v;
+    height: auto; 
+    display: flex;
+    align-items: center;
+    flex-direction: column;  
+}
+
+#img-el {
+    max-width: 20vw;
+}
+
+#main-title, #endors-title, button {
+    font-family: "Josefin Sans", sans-serif;
+}
+
+#endorsement-msg {
+    min-width: 95%;
+    max-width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: initial;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    background-color: #444059;
+    color: #FFFFFF;
+    margin: 5px 0;
+}
+
+#from-name, #to-name {
+    max-width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    background-color: #444059;
+    color: #FFFFFF;
+    margin: 0 0 5px 0;
+}
+
+button {
+    background-color: #28A9F1;
+    color: #1B1924;
+    border: none;
+    margin: 5px 0;
+    padding: 15px 0;
+    border-radius: 10px;
+    width: 101%;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+#endorsement-msg:hover {
+    cursor: pointer;
+    filter: brightness(.8);
+}
+
+#from-name:hover {
+    cursor: pointer;
+    filter: brightness(.8);
+}
+
+#to-name:hover {
+    cursor: pointer;
+    filter: brightness(.8);
+}
+
+button:hover {
+    cursor: pointer;
+    filter: brightness(.8);
+}
+
+.endorsement-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.result {
+    width: 100%;
+    max-height: 300px; /* Adjust height as needed */
+    overflow-y: auto;
+}
+
+.endorsement-box {
+    font-weight: 400;
+    font-size: 14px;
+    background-color: #FFFFFF;
+    color: #1B1924;
+    margin-bottom: 10px;
+    padding: 10px 15px;
+    list-style: none;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    font-family: "Inter", sans-serif;
+    width: 30vw;
+}
+
+.from-text, .to-text {
+    font-weight: bold;
+}
+
+.message-text {
+    margin: 10px 0;
+}
+
